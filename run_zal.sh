@@ -1,3 +1,4 @@
+
 mkdir -p zal/build
 cd zal/build
 cmake ..
