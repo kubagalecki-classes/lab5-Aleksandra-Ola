@@ -15,9 +15,10 @@ std::vector< char > foo(std::list< Human >& people)
     --it;
     it->birthday();
     if(it->isMonster()==true)
-    ludzik.push_back('n');
+    ludzik[i]='n';
     else
-    ludzik.push_back('y');
+    ludzik[i]='y';
+    i++;
 }
     return ludzik; 
 }
